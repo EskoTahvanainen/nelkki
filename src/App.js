@@ -167,7 +167,7 @@ class Game extends Component {
 
     return (
       <div className="container">
-        <h3>Play Nine</h3>
+        <h3>Play Nine - 9</h3>
         <div className="row">
           <Stars numberofstars={numberOfStars}> </Stars>
           <Button selectedNumbers={selectedNumbers} redraws={redraws} countAnswerSum={this.countAnswerSum} acceptAnswer={this.acceptAnswer} answerIsCorrect={answerIsCorrect} redraw={this.redraw}></Button>
